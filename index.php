@@ -12,6 +12,18 @@
         crossorigin="anonymous"></script>
     <title>ITD</title>
 </head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@300&display=swap');
+    *{
+        font-family: 'Bai Jamjuree', sans-serif;
+    }
+    body{
+        background-color: #deeaf0;
+    }
+    .txtvdo {
+        margin-top: 10px
+    }
+</style>
 
 <body>
     <!-- navbar -->
@@ -33,19 +45,12 @@
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                             data-bs-toggle="dropdown" aria-expanded="false">
-                            Dropdown
+                            รายละเอียด
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            <li><a class="dropdown-item" href="#">รายละเอียดหลักสูตร ITD </a></li>
+                            <li><a class="dropdown-item" href="#">อาชีพในฝัน</a></li>
                         </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
                     </li>
                 </ul>
                 <form class="d-flex">
@@ -57,7 +62,6 @@
     </nav>
     <!-- navbar -->
     <!-- slide img -->
-    <!-- <div class="container-fluid"> -->
     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
@@ -69,21 +73,24 @@
         </div>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="https://i1.wp.com/hospital.wu.ac.th/wp-content/uploads/2020/02/20-1-scaled.jpg?fit=2560%2C1440&ssl=1" class="d-block w-100" alt="wu" width="100%" height="440px">
+                <img src="https://i1.wp.com/hospital.wu.ac.th/wp-content/uploads/2020/02/20-1-scaled.jpg?fit=2560%2C1440&ssl=1"
+                    class="d-block w-100" alt="wu" width="100%" height="440px">
                 <div class="carousel-caption d-none d-md-block">
                     <h5>First slide label</h5>
                     <p>Some representative placeholder content for the first slide.</p>
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="https://scontent.furt1-1.fna.fbcdn.net/v/t39.30808-6/266129706_5341526972530449_3211462295337844812_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=730e14&_nc_eui2=AeE5vdfjqPClk-nEt6kXgZK4bJSj7Diq3ytslKPsOKrfK-V-NDOvlNWPNOMvwUf4M0WoCQdk18kTecj3ddYbjoUH&_nc_ohc=zcIfHTT_bJMAX974qNg&_nc_ht=scontent.furt1-1.fna&oh=a88876581ef8877aecacb83dafdb172b&oe=61B84E37" class="d-block w-100" alt="wu" width="100%" height="440px">
+                <img src="https://scontent.furt1-1.fna.fbcdn.net/v/t39.30808-6/266129706_5341526972530449_3211462295337844812_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=730e14&_nc_eui2=AeE5vdfjqPClk-nEt6kXgZK4bJSj7Diq3ytslKPsOKrfK-V-NDOvlNWPNOMvwUf4M0WoCQdk18kTecj3ddYbjoUH&_nc_ohc=zcIfHTT_bJMAX974qNg&_nc_ht=scontent.furt1-1.fna&oh=a88876581ef8877aecacb83dafdb172b&oe=61B84E37"
+                    class="d-block w-100" alt="wu" width="100%" height="440px">
                 <div class="carousel-caption d-none d-md-block">
-                    <h5>Second slide label</h5>
-                    <p>Some representative placeholder content for the second slide.</p>
+                    <h5> Co-working(IT)</h5>
+                    <p>มีเฉพาะสาขา IT เท่านั้น ไว้ใช้นั่งพักผ่อนหรือทำงาน</p>
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="https://i0.wp.com/cdt.wu.ac.th/wp-content/uploads/2018/08/136009.jpg" class="d-block w-100" alt="wu" width="100%" height="440px">
+                <img src="https://i0.wp.com/cdt.wu.ac.th/wp-content/uploads/2018/08/136009.jpg" class="d-block w-100"
+                    alt="wu" width="100%" height="440px">
                 <div class="carousel-caption d-none d-md-block">
                     <h5>Third slide label</h5>
                     <p>Some representative placeholder content for the third slide.</p>
@@ -101,8 +108,27 @@
             <span class="visually-hidden">Next</span>
         </button>
     </div>
-    <!-- </div> -->
     <!-- slide img -->
+    <!-- วิดีโอ -->
+    <div class="container-fluid">
+        <p class="h2 txtvdo" style="text-align:center"><strong>ITD ม.วลัยลักษณ์ มีอะไรดี</strong></p>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                </div>
+                <div class="col order-2">
+                </div>
+                <div class="col order-12">
+                    <iframe width="850" height="400" src="https://www.youtube.com/embed/6F2zODXLhMM"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen class="txtvdo"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- วิดีโอ -->
 
 </body>
 
