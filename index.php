@@ -23,6 +23,17 @@
     .txtvdo {
         margin-top: 10px
     }
+    .colorcontainer1{
+        background-color: #90CAF9;
+        margin-top: 5px;
+    }
+    .imgcontent1{
+        border-radius: 50%;
+        margin: 10px;
+    }
+    .txtcontent1{
+        margin-top: 10px;
+    }
 </style>
 
 <body>
@@ -129,7 +140,23 @@
     </div>
     </div>
     <!-- วิดีโอ -->
-
+        <!-- เนื้อหา 1 -->
+        <div class="container-fluid  colorcontainer1">
+            <div class="row">
+                <div class="col-2"></div>
+                <div class="col-4">
+                    <img src="https://ocd.wu.ac.th/photo/components/com_eventgallery/helpers/image.php?&mode=full&folder=11026203&file=IMG_9871.JPG"  class="imgcontent1"  alt="comte" width="300" height="300"  >
+                </div>
+                <div class="col-4">
+                    <h2 class="txtcontent1"><strong>ห้องเรียนของนักเรียน ITD</strong></h2>
+                    <blockquote>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium aliquid illum sed aperiam odio, voluptatibus ad in quos architecto doloribus recusandae optio asperiores ut itaque natus consectetur enim inventore tempore.
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+        <!-- เนื้อหา 1 -->
+    
 </body>
 
 </html>
