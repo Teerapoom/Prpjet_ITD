@@ -19,9 +19,9 @@
         font-family: 'Bai Jamjuree', sans-serif;
     }
 
-    /* body {
-        background-color: #deeaf0;
-    } */
+    body {
+        background-color: #ECEFF1;
+    }
 
     .txtvdo {
         margin-top: 10px
@@ -34,23 +34,43 @@
         align-items: center;
         flex-direction: column;
         margin-top: 5px;
+        padding-bottom: 5.5px;
     }
 
     .imgcontent1 {
         border-radius: 50%;
         margin-top: 10px;
-        margin-bottom: auto;
+        margin-bottom: 10px;
     }
 
     .txtcontent1 {
         font-size: 40px;
-        margin-top: 10px;
+        margin-top: 15px;
+        font-weight: 700;
+        line-height: 120%
+    }
+
+    .txtincontent1 {
+        margin-top: 15px;
+    }
+    .txtcontent2 {
+        margin-top: 20px;
+        font-size: 40px;
+        margin-top: 15px;
         font-weight: 700;
         line-height: 120%
     }
 
     .colorcontainer2 {
         background-color: #B3E5FC;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 0px;
+    }
+    .colorcontainer3 {
+        background-color: #E1F5FE;
         width: 100%;
         display: flex;
         align-items: center;
@@ -173,7 +193,7 @@
             </div>
             <div class="col-4">
                 <h2 class="txtcontent1"><strong>ห้องเรียนของนักเรียน ITD</strong></h2>
-                <blockquote>
+                <blockquote class="txtincontent1">
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium aliquid illum sed aperiam odio,
                     voluptatibus ad in quos architecto doloribus recusandae optio asperiores ut itaque natus consectetur
                     enim inventore tempore.
@@ -188,19 +208,38 @@
             <div class="col-3"></div>
             <div class="col-4">
                 <h2 class="txtcontent1"><strong>IT Coworking</strong></h2>
-                <blockquote>
+                <blockquote class="txtincontent1">
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium aliquid illum sed aperiam odio,
                     voluptatibus ad in quos architecto doloribus recusandae optio asperiores ut itaque natus consectetur
                     enim inventore tempore.
                 </blockquote>
             </div>
             <div class="col-4">
-                <img src="https://ocd.wu.ac.th/photo/components/com_eventgallery/helpers/image.php?&mode=full&folder=11026203&file=IMG_9871.JPG"
-                class="imgcontent1" alt="comte" width="300" height="300">
+                <img src="https://scontent.furt1-1.fna.fbcdn.net/v/t39.30808-6/265206935_5341526839197129_4896153949655991794_n.png?_nc_cat=100&ccb=1-5&_nc_sid=730e14&_nc_ohc=-C5lDYc2390AX9_svpU&_nc_ht=scontent.furt1-1.fna&oh=12c2181882d874ebcca06465d2cc8d19&oe=61B9C4A5"
+                    class="imgcontent1" alt="comte" width="300" height="300">
             </div>
         </div>
     </div>
     <!-- เนื้อหา 2 -->
+    <!-- เนื้อหา 3 -->
+    <div class="container-fluid  colorcontainer3">
+        <div class="row">
+            <div class="col-2"></div>
+            <div class="col-4">
+                <img src="https://ocd.wu.ac.th/photo/components/com_eventgallery/helpers/image.php?&mode=full&folder=11026203&file=IMG_9871.JPG"
+                    class="imgcontent1" alt="comte" width="300" height="300">
+            </div>
+            <div class="col-4">
+                <h2 class="txtcontent2"><strong>อุปกรณ์ของนักเรียน IT</strong></h2>
+                <blockquote class="txtincontent2">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium aliquid illum sed aperiam odio,
+                    voluptatibus ad in quos architecto doloribus recusandae optio asperiores ut itaque natus consectetur
+                    enim inventore tempore.
+                </blockquote>
+            </div>
+        </div>
+    </div>
+    <!-- เนื้อหา 3 -->
 
 </body>
 
