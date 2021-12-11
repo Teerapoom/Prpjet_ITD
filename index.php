@@ -14,25 +14,48 @@
 </head>
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@300&display=swap');
-    *{
+
+    * {
         font-family: 'Bai Jamjuree', sans-serif;
     }
-    body{
+
+    /* body {
         background-color: #deeaf0;
-    }
+    } */
+
     .txtvdo {
         margin-top: 10px
     }
-    .colorcontainer1{
-        background-color: #90CAF9;
+
+    .colorcontainer1 {
+        background-color: #E1F5FE;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
         margin-top: 5px;
     }
-    .imgcontent1{
+
+    .imgcontent1 {
         border-radius: 50%;
-        margin: 10px;
-    }
-    .txtcontent1{
         margin-top: 10px;
+        margin-bottom: auto;
+    }
+
+    .txtcontent1 {
+        font-size: 40px;
+        margin-top: 10px;
+        font-weight: 700;
+        line-height: 120%
+    }
+
+    .colorcontainer2 {
+        background-color: #B3E5FC;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 0px;
     }
 </style>
 
@@ -140,23 +163,45 @@
     </div>
     </div>
     <!-- วิดีโอ -->
-        <!-- เนื้อหา 1 -->
-        <div class="container-fluid  colorcontainer1">
-            <div class="row">
-                <div class="col-2"></div>
-                <div class="col-4">
-                    <img src="https://ocd.wu.ac.th/photo/components/com_eventgallery/helpers/image.php?&mode=full&folder=11026203&file=IMG_9871.JPG"  class="imgcontent1"  alt="comte" width="300" height="300"  >
-                </div>
-                <div class="col-4">
-                    <h2 class="txtcontent1"><strong>ห้องเรียนของนักเรียน ITD</strong></h2>
-                    <blockquote>
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium aliquid illum sed aperiam odio, voluptatibus ad in quos architecto doloribus recusandae optio asperiores ut itaque natus consectetur enim inventore tempore.
-                    </blockquote>
-                </div>
+    <!-- เนื้อหา 1 -->
+    <div class="container-fluid  colorcontainer1">
+        <div class="row">
+            <div class="col-2"></div>
+            <div class="col-4">
+                <img src="https://ocd.wu.ac.th/photo/components/com_eventgallery/helpers/image.php?&mode=full&folder=11026203&file=IMG_9871.JPG"
+                    class="imgcontent1" alt="comte" width="300" height="300">
+            </div>
+            <div class="col-4">
+                <h2 class="txtcontent1"><strong>ห้องเรียนของนักเรียน ITD</strong></h2>
+                <blockquote>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium aliquid illum sed aperiam odio,
+                    voluptatibus ad in quos architecto doloribus recusandae optio asperiores ut itaque natus consectetur
+                    enim inventore tempore.
+                </blockquote>
             </div>
         </div>
-        <!-- เนื้อหา 1 -->
-    
+    </div>
+    <!-- เนื้อหา 1 -->
+    <!-- เนื้อหา 2 -->
+    <div class="container-fluid  colorcontainer2">
+        <div class="row">
+            <div class="col-3"></div>
+            <div class="col-4">
+                <h2 class="txtcontent1"><strong>IT Coworking</strong></h2>
+                <blockquote>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium aliquid illum sed aperiam odio,
+                    voluptatibus ad in quos architecto doloribus recusandae optio asperiores ut itaque natus consectetur
+                    enim inventore tempore.
+                </blockquote>
+            </div>
+            <div class="col-4">
+                <img src="https://ocd.wu.ac.th/photo/components/com_eventgallery/helpers/image.php?&mode=full&folder=11026203&file=IMG_9871.JPG"
+                class="imgcontent1" alt="comte" width="300" height="300">
+            </div>
+        </div>
+    </div>
+    <!-- เนื้อหา 2 -->
+
 </body>
 
 </html>
