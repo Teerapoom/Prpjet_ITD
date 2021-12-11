@@ -53,6 +53,7 @@
     .txtincontent1 {
         margin-top: 15px;
     }
+
     .txtcontent2 {
         margin-top: 20px;
         font-size: 40px;
@@ -69,6 +70,7 @@
         flex-direction: column;
         margin-top: 0px;
     }
+
     .colorcontainer3 {
         background-color: #E1F5FE;
         width: 100%;
@@ -85,7 +87,7 @@
         <div class="container-fluid">
             <a class="navbar-brand" href="#"><img
                     src="https://scontent.furt1-1.fna.fbcdn.net/v/t39.30808-6/266268798_5341426419207171_4826837247509475808_n.jpg?_nc_cat=106&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeE190JIkIZWs_8-4vz_86CNdVT_xS2Oakl1VP_FLY5qSWJ279KGhIpi8_355FmjcGM6E6a_NpUJvmtk82-8udmY&_nc_ohc=izLT0pcYELkAX_BxsQc&_nc_ht=scontent.furt1-1.fna&oh=bb7ce96862861c0f995f53d2e2794bc3&oe=61B84A99"
-                    alt="wu" width="50" height="50"></a>
+                    alt="wu" width="50" height="50" style="border-radius: 50%;"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -102,7 +104,12 @@
                             รายละเอียด
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#">รายละเอียดหลักสูตร ITD </a></li>
+                            <li><a class="dropdown-item" href="#scrollspyHeading1">ห้องเรียนของนักเรียน ITD</a></li>
+                            <li><a class="dropdown-item" href="#scrollspyHeading2">IT Coworking</a></li>
+                            <li><a class="dropdown-item" href="#scrollspyHeading3">อุปกรณ์ของนักเรียน IT</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
                             <li><a class="dropdown-item" href="#">อาชีพในฝัน</a></li>
                         </ul>
                     </li>
@@ -184,7 +191,8 @@
     </div>
     <!-- วิดีโอ -->
     <!-- เนื้อหา 1 -->
-    <div class="container-fluid  colorcontainer1">
+    <div class="container-fluid  colorcontainer1" data-bs-spy="scroll" data-bs-target="#navbar-example2"
+        data-bs-offset="0" class="container-fluid scrollspy-example colorcontainer1 " tabindex="0">
         <div class="row">
             <div class="col-2"></div>
             <div class="col-4">
@@ -192,7 +200,7 @@
                     class="imgcontent1" alt="comte" width="300" height="300">
             </div>
             <div class="col-4">
-                <h2 class="txtcontent1"><strong>ห้องเรียนของนักเรียน ITD</strong></h2>
+                <h2 class="txtcontent1" id="scrollspyHeading1"><strong>ห้องเรียนของนักเรียน ITD</strong></h2>
                 <blockquote class="txtincontent1">
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium aliquid illum sed aperiam odio,
                     voluptatibus ad in quos architecto doloribus recusandae optio asperiores ut itaque natus consectetur
@@ -203,11 +211,12 @@
     </div>
     <!-- เนื้อหา 1 -->
     <!-- เนื้อหา 2 -->
-    <div class="container-fluid  colorcontainer2">
+    <div class="container-fluid  colorcontainer2" data-bs-spy="scroll" data-bs-target="#navbar-example2"
+        data-bs-offset="0" class="container-fluid scrollspy-example colorcontainer1 " tabindex="0">
         <div class="row">
             <div class="col-3"></div>
             <div class="col-4">
-                <h2 class="txtcontent1"><strong>IT Coworking</strong></h2>
+                <h2 class="txtcontent1" id="scrollspyHeading2"><strong>IT Coworking</strong></h2>
                 <blockquote class="txtincontent1">
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium aliquid illum sed aperiam odio,
                     voluptatibus ad in quos architecto doloribus recusandae optio asperiores ut itaque natus consectetur
@@ -222,7 +231,8 @@
     </div>
     <!-- เนื้อหา 2 -->
     <!-- เนื้อหา 3 -->
-    <div class="container-fluid  colorcontainer3">
+    <div class="container-fluid  colorcontainer3" data-bs-spy="scroll" data-bs-target="#navbar-example2"
+        data-bs-offset="0" class="container-fluid scrollspy-example colorcontainer1 " tabindex="0">
         <div class="row">
             <div class="col-2"></div>
             <div class="col-4">
@@ -230,7 +240,7 @@
                     class="imgcontent1" alt="comte" width="300" height="300">
             </div>
             <div class="col-4">
-                <h2 class="txtcontent2"><strong>อุปกรณ์ของนักเรียน IT</strong></h2>
+                <h2 class="txtcontent2" id="scrollspyHeading3"><strong>อุปกรณ์ของนักเรียน IT</strong></h2>
                 <blockquote class="txtincontent2">
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium aliquid illum sed aperiam odio,
                     voluptatibus ad in quos architecto doloribus recusandae optio asperiores ut itaque natus consectetur
