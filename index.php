@@ -11,7 +11,7 @@
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
     <title>ITD</title>
-    
+
 
 </head>
 <style>
@@ -89,9 +89,15 @@
         background: #90CAF9;
         border-bottom: solid 5px #516ab6;
     }
-    .containerCardtwo{
-        margin-top:20px;
+
+    .containerCardtwo {
+        margin-top: 20px;
         margin-bottom: 20px;
+    }
+
+    .footercontainer {
+        background-color: white;
+        height: 80px;
     }
 </style>
 
@@ -294,8 +300,8 @@
                         alt="system analysis" width="195" height="250">
                     <div class="card-body">
                         <h5 class="card-title"><strong>System Analysis</strong></h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
+                        <p class="card-text">ทำหน้าที่เหมือนเป็นนักแก้ปัญหาให้องค์กร โดยผ่านการวิเคราะห์ของข้อมูล
+                            เพื่อแก้ไขหรือปรับปรุงธุรกิจให้ผ่านพ้นวิกฤติ</p>
                         <a href="#" class="btn btn-primary">Go somewhere</a>
                     </div>
                 </div>
@@ -321,7 +327,8 @@
             <div class="col-2"></div>
             <div class="col-4">
                 <div class="card" style="width: 18rem;">
-                    <img src="https://cdn-icons.flaticon.com/png/512/2335/premium/2335271.png?token=exp=1639297549~hmac=996bf2473b2403a8044dc50a7ab87640" class="card-img-top" alt="Backend developer" width="195" height="250" >
+                    <img src="https://cdn-icons.flaticon.com/png/512/2335/premium/2335271.png?token=exp=1639297549~hmac=996bf2473b2403a8044dc50a7ab87640"
+                        class="card-img-top" alt="Backend developer" width="195" height="250">
                     <div class="card-body">
                         <h5 class="card-title"><strong>Backend Developer</strong></h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of
@@ -332,7 +339,8 @@
             </div>
             <div class="col-4">
                 <div class="card" style="width: 18rem;">
-                    <img src="https://cdn-icons-png.flaticon.com/512/1918/1918557.png" class="card-img-top" alt="Software Tester" width="195" height="250">
+                    <img src="https://cdn-icons-png.flaticon.com/512/1918/1918557.png" class="card-img-top"
+                        alt="Software Tester" width="195" height="250">
                     <div class="card-body">
                         <h5 class="card-title"><strong>Software Tester</strong></h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of
@@ -345,8 +353,21 @@
     </div>
     <!-- อาชีพในฝัน การ์2 -->
     <!-- footer -->
-    
+
     <!-- footer -->
 </body>
+<div class="container-fluid footercontainer">
+    <div class="row">
+        <div class="col-4">
+            ติดต่อได้ที่
+        </div>
+        <div class="col-4">
+            Column
+        </div>
+        <div class="col-4">
+            Column
+        </div>
+    </div>
+</div>
 
 </html>
