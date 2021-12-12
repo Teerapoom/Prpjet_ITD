@@ -278,7 +278,7 @@
     <!-- เนื้อหา 3 -->
     <!-- หัวข้อ 1-->
     <div class="container-fluid">
-        <h2 class="title"  id="scrollspyHeading4" ><strong>อาชีพในฝัน</strong></h2>
+        <h2 class="title" id="scrollspyHeading4"><strong>อาชีพในฝัน</strong></h2>
     </div>
     <!-- หัวข้อ 1 -->
     <!-- อาชีพในฝัน การ์1 -->
@@ -292,7 +292,30 @@
                         <h5 class="card-title"><strong>Business Analysis</strong></h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of
                             the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal">
+                            อ่านข้อมูลเพิ่มเติม
+                        </button>
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        ...
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -329,8 +352,8 @@
             <div class="col-2"></div>
             <div class="col-4">
                 <div class="card" style="width: 18rem;">
-                    <img src="https://cdn-icons-png.flaticon.com/512/2166/2166823.png"
-                        class="card-img-top" alt="Backend developer" width="195" height="250">
+                    <img src="https://cdn-icons-png.flaticon.com/512/2166/2166823.png" class="card-img-top"
+                        alt="Backend developer" width="195" height="250">
                     <div class="card-body">
                         <h5 class="card-title"><strong>Backend Developer</strong></h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of
@@ -365,16 +388,16 @@
                     role="button" data-mdb-ripple-color="dark" target="_blank"><i class="fab fa-facebook-f"></i>
 
                     <!-- Google -->
-                    <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="https://www.wu.ac.th/th" role="button"
-                        data-mdb-ripple-color="dark" target="_blank"><i class="fab fa-google"></i></a>
+                    <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="https://www.wu.ac.th/th"
+                        role="button" data-mdb-ripple-color="dark" target="_blank"><i class="fab fa-google"></i></a>
 
                     <!-- Instagram -->
-                    <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="https://www.instagram.com/itd.wu/" role="button"
-                        data-mdb-ripple-color="dark" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="https://www.instagram.com/itd.wu/"
+                        role="button" data-mdb-ripple-color="dark" target="_blank"><i class="fab fa-instagram"></i></a>
 
                     <!-- Linkedin -->
-                    <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="https://informatics.wu.ac.th/" role="button"
-                        data-mdb-ripple-color="dark" target="_blank" ><i class="fab fa-linkedin"></i></a>
+                    <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="https://informatics.wu.ac.th/"
+                        role="button" data-mdb-ripple-color="dark" target="_blank"><i class="fab fa-linkedin"></i></a>
             </section>
             <!-- Section: Social media -->
         </div>
@@ -391,4 +414,6 @@
 </body>
 
 </html>
+
+
 
