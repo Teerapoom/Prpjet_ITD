@@ -11,7 +11,14 @@
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
     <title>ITD</title>
-
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+    <!-- MDB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.10.1/mdb.min.css" rel="stylesheet" />
+    <!-- MDB -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.10.1/mdb.min.js"></script>
 
 </head>
 <style>
@@ -94,11 +101,6 @@
         margin-top: 20px;
         margin-bottom: 20px;
     }
-
-    .footercontainer {
-        background-color: white;
-        height: 80px;
-    }
 </style>
 
 <body>
@@ -130,7 +132,7 @@
                             <li>
                                 <hr class="dropdown-divider">
                             </li>
-                            <li><a class="dropdown-item" href="#">อาชีพในฝัน</a></li>
+                            <li><a class="dropdown-item" href="#scrollspyHeading4">อาชีพในฝัน</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -276,7 +278,7 @@
     <!-- เนื้อหา 3 -->
     <!-- หัวข้อ 1-->
     <div class="container-fluid">
-        <h2 class="title"><strong>อาชีพในฝัน</strong></h2>
+        <h2 class="title"  id="scrollspyHeading4" ><strong>อาชีพในฝัน</strong></h2>
     </div>
     <!-- หัวข้อ 1 -->
     <!-- อาชีพในฝัน การ์1 -->
@@ -327,7 +329,7 @@
             <div class="col-2"></div>
             <div class="col-4">
                 <div class="card" style="width: 18rem;">
-                    <img src="https://cdn-icons.flaticon.com/png/512/2335/premium/2335271.png?token=exp=1639297549~hmac=996bf2473b2403a8044dc50a7ab87640"
+                    <img src="https://cdn-icons-png.flaticon.com/512/2166/2166823.png"
                         class="card-img-top" alt="Backend developer" width="195" height="250">
                     <div class="card-body">
                         <h5 class="card-title"><strong>Backend Developer</strong></h5>
@@ -353,21 +355,40 @@
     </div>
     <!-- อาชีพในฝัน การ์2 -->
     <!-- footer -->
+    <footer class="text-center text-white" style="background-color: #E0E0E0;">
+        <!-- Grid container -->
+        <div class="container pt-4">
+            <!-- Section: Social media -->
+            <section class="mb-4">
+                <!-- Facebook -->
+                <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="https://www.facebook.com/it.walailak"
+                    role="button" data-mdb-ripple-color="dark" target="_blank"><i class="fab fa-facebook-f"></i>
 
+                    <!-- Google -->
+                    <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="https://www.wu.ac.th/th" role="button"
+                        data-mdb-ripple-color="dark" target="_blank"><i class="fab fa-google"></i></a>
+
+                    <!-- Instagram -->
+                    <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="https://www.instagram.com/itd.wu/" role="button"
+                        data-mdb-ripple-color="dark" target="_blank"><i class="fab fa-instagram"></i></a>
+
+                    <!-- Linkedin -->
+                    <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="https://informatics.wu.ac.th/" role="button"
+                        data-mdb-ripple-color="dark" target="_blank" ><i class="fab fa-linkedin"></i></a>
+            </section>
+            <!-- Section: Social media -->
+        </div>
+        <!-- Grid container -->
+
+        <!-- Copyright -->
+        <div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            สนใจสมัครได้ที่:
+            <a class="text-dark" href="https://entry.wu.ac.th/index.html" target="_blank"> มหาวิทยาลัยวลัยลักษณ์</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
     <!-- footer -->
 </body>
-<div class="container-fluid footercontainer">
-    <div class="row">
-        <div class="col-4">
-            ติดต่อได้ที่
-        </div>
-        <div class="col-4">
-            Column
-        </div>
-        <div class="col-4">
-            Column
-        </div>
-    </div>
-</div>
 
 </html>
+
