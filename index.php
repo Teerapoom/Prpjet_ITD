@@ -79,6 +79,13 @@
         flex-direction: column;
         margin-top: 0px;
     }
+
+    .title {
+        padding: 0.5em;
+        color: #010101;
+        background: #90CAF9;
+        border-bottom: solid 5px #516ab6;
+    }
 </style>
 
 <body>
@@ -202,9 +209,9 @@
             <div class="col-4">
                 <h2 class="txtcontent1" id="scrollspyHeading1"><strong>ห้องเรียนของนักเรียน ITD</strong></h2>
                 <blockquote class="txtincontent1">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium aliquid illum sed aperiam odio,
-                    voluptatibus ad in quos architecto doloribus recusandae optio asperiores ut itaque natus consectetur
-                    enim inventore tempore.
+                    ห้องเรียน it มีห้องคอมพิวเตอร์ที่มีอุปกรณ์ครบครัน
+                    ตั้งอยู่ที่ตึกศูนย์เทคโนโลยีดิจิทัลนักศึกษาสามารถใช้ห้องคอมพิวเตอร์ในการเรียนรู้
+                    นอกจากนี้นักศึกษายังใช้คอมพิวเตอร์ในการศึกษา ค้นคว้าหาความรู้เพิ่มเติมจากในห้องเรียน
                 </blockquote>
             </div>
         </div>
@@ -218,9 +225,12 @@
             <div class="col-4">
                 <h2 class="txtcontent1" id="scrollspyHeading2"><strong>IT Coworking</strong></h2>
                 <blockquote class="txtincontent1">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium aliquid illum sed aperiam odio,
-                    voluptatibus ad in quos architecto doloribus recusandae optio asperiores ut itaque natus consectetur
-                    enim inventore tempore.
+                    Co-working Space เป็นห้องสำหรับนักศึกษา IT ที่สามารถเข้ามาใช้บริการหรือทำงานต่างๆ
+                    อีกทั้งยังสามารถใช้ในการพบปะ พูดคุย
+                    และแลกเปลี่ยนความคิดกันแลกเปลี่ยนวิธีการแก้ปัญหาต่าง ๆ ระหว่างอาจารย์กับนักศึกษา รุ่นพี่กับรุ่นน้อง
+                    และเพื่อนๆ
+                    Co-working Space มีดีไซน์ที่สวยงามทันสมัย ดูสบายตา และบรรยากาศที่จะช่วยให้มีความคิดสร้างสรรค์
+                    เหมาะแก่การคิดหาไอเดียอะไรใหม่ ๆ
                 </blockquote>
             </div>
             <div class="col-4">
@@ -240,17 +250,37 @@
                     class="imgcontent1" alt="comte" width="300" height="300">
             </div>
             <div class="col-4">
-                <h2 class="txtcontent2" id="scrollspyHeading3"><strong>อุปกรณ์ของนักเรียน IT</strong></h2>
+                <h2 class="txtcontent2" id="scrollspyHeading3"><strong>อุปกรณ์ของนักเรียน | IT</strong></h2>
                 <blockquote class="txtincontent2">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium aliquid illum sed aperiam odio,
-                    voluptatibus ad in quos architecto doloribus recusandae optio asperiores ut itaque natus consectetur
-                    enim inventore tempore.
+                    ศูนย์เทคโนโลยีดิจิทัล สนับสนุนการใช้เทคโนโลยีสารสนเทศเพื่อการศึกษา
+                    โดยให้บริการคอมพิวเตอร์และอุปกรณ์อิเล็กทรอนิกส์ที่ทันสมัย เพื่อสนับสนุนและเพิ่มศักยภาพให้แก่นักศึกษา
+                    อาจารย์ รวมทั้งบุคลากรของมหาวิทยาลัยเพื่อใช้ในการพัฒนาระบบการเรียนการสอน งานวิจัย
+                    รวมทั้งงานบริหารของมหาวิทยาลัย
                 </blockquote>
             </div>
         </div>
     </div>
     <!-- เนื้อหา 3 -->
-
+    <!-- หัวข้อ 1-->
+    <div class="container-fluid">
+        <h2 class=" title"><strong>อาชีพในฝัน</strong></h2>
+    </div>
+    <!-- หัวข้อ 1 -->
+    <!-- อาชีพในฝัน การ์1 -->
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                First in DOM, no order applied
+            </div>
+            <div class="col order-5">
+                Second in DOM, with a larger order
+            </div>
+            <div class="col order-1">
+                Third in DOM, with an order of 1
+            </div>
+        </div>
+    </div>
+    <!-- อาชีพในฝัน การ์1 -->
 </body>
 
 </html>
