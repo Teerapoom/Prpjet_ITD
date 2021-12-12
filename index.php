@@ -270,13 +270,37 @@
     <div class="container">
         <div class="row">
             <div class="col">
-                First in DOM, no order applied
+                <div class="card" style="width: 18rem;">
+                    <img src="https://cdn-icons.flaticon.com/png/512/998/premium/998382.png?token=exp=1639295757~hmac=714bda4c74bc29278c6f26c1b43ee2f9" class="card-img-top" alt="..." width="310" height="232">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
             </div>
             <div class="col order-5">
-                Second in DOM, with a larger order
+                <div class="card" style="width: 18rem;">
+                    <img src="https://cdn-icons-png.flaticon.com/512/2328/2328966.png" class="card-img-top" alt="..." width="310" height="232">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
             </div>
             <div class="col order-1">
-                Third in DOM, with an order of 1
+                <div class="card" style="width: 18rem;">
+                    <img src="https://plopdo.com/wp-content/uploads/2021/07/Screenshot-1-1210x642.png?crop=1" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -284,3 +308,4 @@
 </body>
 
 </html>
+
