@@ -159,8 +159,8 @@
                 <img src="https://i1.wp.com/hospital.wu.ac.th/wp-content/uploads/2020/02/20-1-scaled.jpg?fit=2560%2C1440&ssl=1"
                     class="d-block w-100" alt="wu" width="100%" height="440px">
                 <div class="carousel-caption d-none d-md-block">
-                    <h5>First slide label</h5>
-                    <p>Some representative placeholder content for the first slide.</p>
+                    <h5>มหาวิทยาลัยวลัยลักษณ์</h5>
+                    <p>มหาวิทยาลัยวลัยลักษณ์มุ่งสร้างบัณฑิตที่มีขีดความสามารถในการแข่งขันสูงเป็นทั้ง“คนดีและคนเก่ง”</p>
                 </div>
             </div>
             <div class="carousel-item">
@@ -175,8 +175,8 @@
                 <img src="https://i0.wp.com/cdt.wu.ac.th/wp-content/uploads/2018/08/136009.jpg" class="d-block w-100"
                     alt="wu" width="100%" height="440px">
                 <div class="carousel-caption d-none d-md-block">
-                    <h5>Third slide label</h5>
-                    <p>Some representative placeholder content for the third slide.</p>
+                    <h5>ห้องเรียนของนักเรียน IT</h5>
+                    <p>ห้องเรียนกว้างใหญ่เเละเน็ตที่เราเเรง</p>
                 </div>
             </div>
         </div>
@@ -261,7 +261,7 @@
         <div class="row">
             <div class="col-2"></div>
             <div class="col-4">
-                <img src="https://ocd.wu.ac.th/photo/components/com_eventgallery/helpers/image.php?&mode=full&folder=11026203&file=IMG_9871.JPG"
+                <img src="https://ocd.wu.ac.th/photo/components/com_eventgallery/helpers/image.php?&mode=full&folder=10076301&file=a1.jpg"
                     class="imgcontent1" alt="comte" width="300" height="300">
             </div>
             <div class="col-4">
@@ -290,8 +290,8 @@
                         class="card-img-top" alt="business analysis" width="195" height="250">
                     <div class="card-body">
                         <h5 class="card-title"><strong>Business Analysis</strong></h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
+                        <p class="card-text">วิเคราะห์หา Insight ที่น่าสนใจจากข้อมูล โดยเฉพาะข้อมูลแบบ Structured Data
+                            ทำ Business Report หรือสร้าง  Data Dashboard</p>
                         <button type="button" class="btn btn-primary" data-bs-toggle="modal"
                             data-bs-target="#exampleModal">
                             อ่านข้อมูลเพิ่มเติม
@@ -302,12 +302,25 @@
                             <div class="modal-dialog">
                                 <div class="modal-content">
                                     <div class="modal-header">
-                                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                        <h5 class="modal-title" id="exampleModalLabel"><strong>Business Analysis</strong></h5>
                                         <button type="button" class="btn-close" data-bs-dismiss="modal"
                                             aria-label="Close"></button>
                                     </div>
                                     <div class="modal-body">
-                                        ...
+                                        <p>หน้าที่ของ Business Analysis</p>
+                                        <blockquote>วิเคราะห์หา Insight ที่น่าสนใจจากข้อมูล โดยเฉพาะข้อมูลแบบ Structured Data
+                                            ทำ Business Report หรือสร้าง Automated Data Dashboard
+                                            ประสานงานร่วมกับทีม Data Science หากข้อการวิเคราะห์ข้อมูลในแบบที่ลึกขึ้น</blockquote>
+                                            <p>ภาษาที่ใช้งาน</p>
+                                            <blockquote>SQL, R, Python, Power BI, Tableau และ Data Management Systems เป็นต้น</blockquote>
+                                            <p>รายวิชาที่สอดคล้องกับการเป็น Business Analysis</p>
+                                            <ol>
+                                                <li>ITD62-272 Systems Analysis</li>
+                                                <li>ITD62-273 Web User Interface and User Experience Design</li>
+                                                <li>ITD62-123 Computer Programming</li>
+                                                <li>ITD62-124 Data Structure</li>
+                                                <li>ITD62-151 Business Information System</li>
+                                            </ol>
                                     </div>
                                     <div class="modal-footer">
                                         <button type="button" class="btn btn-secondary"
@@ -327,7 +340,7 @@
                         <h5 class="card-title"><strong>System Analysis</strong></h5>
                         <p class="card-text">ทำหน้าที่เหมือนเป็นนักแก้ปัญหาให้องค์กร โดยผ่านการวิเคราะห์ของข้อมูล
                             เพื่อแก้ไขหรือปรับปรุงธุรกิจให้ผ่านพ้นวิกฤติ</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <a class="btn btn-primary">กำลังดำเนินการ...</a>
                     </div>
                 </div>
             </div>
@@ -337,9 +350,9 @@
                         alt="Frontend Developer" width="195" height="250">
                     <div class="card-body">
                         <h5 class="card-title"><strong>Frontend Developer</strong></h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <p class="card-text">การพัฒนาโปรแกรมในส่วนของหน้าบ้าน (ส่วนที่ทุกคนสามารถมองเห็นได้ของเว็บไซต์
+                            หรือแอปพลิเคชัน)</p>
+                        <a class="btn btn-primary">กำลังดำเนินการ....</a>
                     </div>
                 </div>
             </div>
@@ -356,9 +369,9 @@
                         alt="Backend developer" width="195" height="250">
                     <div class="card-body">
                         <h5 class="card-title"><strong>Backend Developer</strong></h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <p class="card-text">การพัฒนาโปรแกรมในส่วนของหลังบ้าน (ส่วนของการทำงานเบื้องหลังจำพวก ฐานข้อมูล
+                            และโครงสร้างพื้นฐาน)</p>
+                        <a class="btn btn-primary">กำลังดำเนินการ...</a>
                     </div>
                 </div>
             </div>
@@ -368,9 +381,10 @@
                         alt="Software Tester" width="195" height="250">
                     <div class="card-body">
                         <h5 class="card-title"><strong>Software Tester</strong></h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <p class="card-text"> ทำหน้าที่ตรวจสอบคุณภาพของ software ที่ถูกผลิตขึ้นมาโดย programmer
+                            โดยทำการเทสต์ระบบต่างๆ และตรวจสอบหาข้อบกพร่องข้อผิดพลาดของซอฟต์แวร์
+                            เพื่อเช็กดูให้ดีว่าซอฟต์แวร์ที่เราส่งออกไปให้ลูกค้า</p>
+                        <a class="btn btn-primary">กำลังดำเนินการ...</a>
                     </div>
                 </div>
             </div>
@@ -414,6 +428,8 @@
 </body>
 
 </html>
+
+
 
 
 
