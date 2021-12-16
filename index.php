@@ -286,7 +286,7 @@
         <div class="row">
             <div class="col">
                 <div class="card" style="width: 18rem;">
-                    <img src="https://cdn-icons.flaticon.com/png/512/998/premium/998382.png?token=exp=1639295757~hmac=714bda4c74bc29278c6f26c1b43ee2f9"
+                    <img src="https://cdn-icons.flaticon.com/png/512/2979/premium/2979941.png?token=exp=1639644874~hmac=b048345b0d4d709fa0aa26a96fb84740"
                         class="card-img-top" alt="business analysis" width="195" height="250">
                     <div class="card-body">
                         <h5 class="card-title"><strong>Business Analysis</strong></h5>
