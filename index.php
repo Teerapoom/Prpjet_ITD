@@ -249,7 +249,7 @@
                 </blockquote>
             </div>
             <div class="col-4">
-                <img src="https://scontent.furt1-1.fna.fbcdn.net/v/t39.30808-6/265206935_5341526839197129_4896153949655991794_n.png?_nc_cat=100&ccb=1-5&_nc_sid=730e14&_nc_ohc=-C5lDYc2390AX9_svpU&_nc_ht=scontent.furt1-1.fna&oh=12c2181882d874ebcca06465d2cc8d19&oe=61B9C4A5"
+                <img src="https://scontent.furt1-1.fna.fbcdn.net/v/t39.30808-6/264487398_5341526849197128_4611946625544690098_n.png?_nc_cat=101&ccb=1-5&_nc_sid=730e14&_nc_ohc=4hicXl56xUUAX9hUHDc&tn=m3y87K6IBu3hMcwv&_nc_ht=scontent.furt1-1.fna&oh=00_AT_b27n_pVt33TjhnT1oTO93arQHWtvYpNpK1XBz0cYg3w&oe=61C07612"
                     class="imgcontent1" alt="comte" width="300" height="300">
             </div>
         </div>
@@ -286,7 +286,7 @@
         <div class="row">
             <div class="col">
                 <div class="card" style="width: 18rem;">
-                    <img src="https://cdn-icons.flaticon.com/png/512/2979/premium/2979941.png?token=exp=1639629871~hmac=ba4af69763f0a08fc3bab9ab44cc1587"
+                    <img src="https://cdn-icons.flaticon.com/png/512/2041/premium/2041643.png?token=exp=1639673892~hmac=1d041440e3aac975ceb086b4b94c412d"
                         class="card-img-top" alt="business analysis" width="195" height="250">
                     <div class="card-body">
                         <h5 class="card-title"><strong>Business Analysis</strong></h5>
