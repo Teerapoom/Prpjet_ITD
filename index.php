@@ -249,7 +249,7 @@
                 </blockquote>
             </div>
             <div class="col-4">
-                <img src="https://scontent.furt1-1.fna.fbcdn.net/v/t39.30808-6/265206935_5341526839197129_4896153949655991794_n.png?_nc_cat=100&ccb=1-5&_nc_sid=730e14&_nc_ohc=-C5lDYc2390AX9_svpU&_nc_ht=scontent.furt1-1.fna&oh=12c2181882d874ebcca06465d2cc8d19&oe=61B9C4A5"
+                <img src=https://scontent.furt1-1.fna.fbcdn.net/v/t39.30808-6/265206935_5341526839197129_4896153949655991794_n.png?_nc_cat=100&ccb=1-5&_nc_sid=730e14&_nc_ohc=j_2SBg6ustcAX9ICB2R&_nc_ht=scontent.furt1-1.fna&oh=00_AT8KZengMddmfnEeinDpRQVKVFXW_g-pJ4r2szoXaBgcGg&oe=61BFB365
                     class="imgcontent1" alt="comte" width="300" height="300">
             </div>
         </div>
