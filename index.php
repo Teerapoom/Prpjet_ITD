@@ -62,17 +62,21 @@
     .txtincontent1 {
         margin-top: 15px;
     }
-
-    .txtcontent2 {
-        margin-top: 20px;
+    .txtcontent1_B0X1{
+        margin-top: 80px;
+    }
+    .txtcontent1_B0X3{
+        margin-top: 60px;
         font-size: 40px;
-        margin-top: 15px;
         font-weight: 700;
         line-height: 120%
     }
+    .txtcontent1_B0X2{
+        margin-top: 50px;
+    }
 
     .colorcontainer2 {
-        background-color: #B3E5FC;
+        background-color: #81D4FA;
         width: 100%;
         display: flex;
         align-items: center;
@@ -91,10 +95,10 @@
 
     .title {
         width: 100%;
-        padding: 0.5em;
+        padding: 0.05em;
         color: #010101;
-        background: #90CAF9;
-        border-bottom: solid 5px #516ab6;
+        background: #4FC3F7;
+        border-bottom: solid 5px #000000;
     }
 
     .containerCardtwo {
@@ -108,7 +112,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
         <div class="container-fluid">
             <a class="navbar-brand" href="#"><img
-                    src="https://scontent.furt1-1.fna.fbcdn.net/v/t39.30808-6/266268798_5341426419207171_4826837247509475808_n.jpg?_nc_cat=106&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeE190JIkIZWs_8-4vz_86CNdVT_xS2Oakl1VP_FLY5qSWJ279KGhIpi8_355FmjcGM6E6a_NpUJvmtk82-8udmY&_nc_ohc=izLT0pcYELkAX_BxsQc&_nc_ht=scontent.furt1-1.fna&oh=bb7ce96862861c0f995f53d2e2794bc3&oe=61B84A99"
+                    src="https://scontent.furt1-1.fna.fbcdn.net/v/t39.30808-6/266268798_5341426419207171_4826837247509475808_n.jpg?_nc_cat=106&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=cpBktfYOd-cAX-9afPD&tn=m3y87K6IBu3hMcwv&_nc_ht=scontent.furt1-1.fna&oh=00_AT84aHsDO9PydIl2R7WhGd23JuZQsIoTezw2LP3XCBE3mg&oe=61C03399"
                     alt="wu" width="50" height="50" style="border-radius: 50%;"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -122,7 +126,7 @@
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
+                            data-bs-toggle="dropdown" aria-expanded="false" style="color:white;">
                             รายละเอียด
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -136,10 +140,6 @@
                         </ul>
                     </li>
                 </ul>
-                <form class="d-flex">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
             </div>
         </div>
     </nav>
@@ -164,7 +164,7 @@
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="https://scontent.furt1-1.fna.fbcdn.net/v/t39.30808-6/266129706_5341526972530449_3211462295337844812_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=730e14&_nc_eui2=AeE5vdfjqPClk-nEt6kXgZK4bJSj7Diq3ytslKPsOKrfK-V-NDOvlNWPNOMvwUf4M0WoCQdk18kTecj3ddYbjoUH&_nc_ohc=zcIfHTT_bJMAX974qNg&_nc_ht=scontent.furt1-1.fna&oh=a88876581ef8877aecacb83dafdb172b&oe=61B84E37"
+                <img src="https://scontent.furt1-1.fna.fbcdn.net/v/t39.30808-6/265206935_5341526839197129_4896153949655991794_n.png?_nc_cat=100&ccb=1-5&_nc_sid=730e14&_nc_ohc=j_2SBg6ustcAX9l_tfK&_nc_ht=scontent.furt1-1.fna&oh=00_AT-SVg34AeoYmcSXvgFClF5nF9cEAtgd-Ecv9-hSTw5raQ&oe=61BFB365"
                     class="d-block w-100" alt="wu" width="100%" height="440px">
                 <div class="carousel-caption d-none d-md-block">
                     <h5> Co-working(IT)</h5>
@@ -176,7 +176,7 @@
                     alt="wu" width="100%" height="440px">
                 <div class="carousel-caption d-none d-md-block">
                     <h5>ห้องเรียนของนักเรียน IT</h5>
-                    <p>ห้องเรียนกว้างใหญ่เเละเน็ตที่เราเเรง</p>
+                    <p>ห้องเรียนกว้างใหญ่เเละเน็ตที่เร็วเเรง</p>
                 </div>
             </div>
         </div>
@@ -194,7 +194,7 @@
     <!-- slide img -->
     <!-- วิดีโอ -->
     <div class="container-fluid">
-        <p class="h2 txtvdo" style="text-align:center"><strong>ITD ม.วลัยลักษณ์ มีอะไรดี</strong></p>
+        <p class="h2 txtvdo" style= "color:black; text-align:center"><strong>ITD ม.วลัยลักษณ์ มีอะไรดี</strong></p>
         <div class="container">
             <div class="row">
                 <div class="col">
@@ -222,8 +222,8 @@
                     class="imgcontent1" alt="comte" width="300" height="300">
             </div>
             <div class="col-4">
-                <h2 class="txtcontent1" id="scrollspyHeading1"><strong>ห้องเรียนของนักเรียน ITD</strong></h2>
-                <blockquote class="txtincontent1">
+                <h2 class="txtcontent1_B0X1" id="scrollspyHeading1" style= "color:black;"><strong>ห้องเรียนของนักเรียน ITD</strong></h2>
+                <blockquote class="txtincontent1" style= "color:black; font-size: 18px; ">
                     ห้องเรียน it มีห้องคอมพิวเตอร์ที่มีอุปกรณ์ครบครัน
                     ตั้งอยู่ที่ตึกศูนย์เทคโนโลยีดิจิทัลนักศึกษาสามารถใช้ห้องคอมพิวเตอร์ในการเรียนรู้
                     นอกจากนี้นักศึกษายังใช้คอมพิวเตอร์ในการศึกษา ค้นคว้าหาความรู้เพิ่มเติมจากในห้องเรียน
@@ -238,8 +238,8 @@
         <div class="row">
             <div class="col-3"></div>
             <div class="col-4">
-                <h2 class="txtcontent1" id="scrollspyHeading2"><strong>IT Coworking</strong></h2>
-                <blockquote class="txtincontent1">
+                <h2 class="txtcontent1_B0X2" id="scrollspyHeading2" style= "color:black;"><strong>IT Coworking</strong></h2>
+                <blockquote class="txtincontent1" style= "color:black; font-size: 18px; ">
                     Co-working Space เป็นห้องสำหรับนักศึกษา IT ที่สามารถเข้ามาใช้บริการหรือทำงานต่างๆ
                     อีกทั้งยังสามารถใช้ในการพบปะ พูดคุย
                     และแลกเปลี่ยนความคิดกันแลกเปลี่ยนวิธีการแก้ปัญหาต่าง ๆ ระหว่างอาจารย์กับนักศึกษา รุ่นพี่กับรุ่นน้อง
@@ -249,7 +249,7 @@
                 </blockquote>
             </div>
             <div class="col-4">
-                <img src=https://scontent.furt1-1.fna.fbcdn.net/v/t39.30808-6/265206935_5341526839197129_4896153949655991794_n.png?_nc_cat=100&ccb=1-5&_nc_sid=730e14&_nc_ohc=j_2SBg6ustcAX9ICB2R&_nc_ht=scontent.furt1-1.fna&oh=00_AT8KZengMddmfnEeinDpRQVKVFXW_g-pJ4r2szoXaBgcGg&oe=61BFB365
+                <img src="https://scontent.furt1-1.fna.fbcdn.net/v/t39.30808-6/265206935_5341526839197129_4896153949655991794_n.png?_nc_cat=100&ccb=1-5&_nc_sid=730e14&_nc_ohc=-C5lDYc2390AX9_svpU&_nc_ht=scontent.furt1-1.fna&oh=12c2181882d874ebcca06465d2cc8d19&oe=61B9C4A5"
                     class="imgcontent1" alt="comte" width="300" height="300">
             </div>
         </div>
@@ -265,8 +265,8 @@
                     class="imgcontent1" alt="comte" width="300" height="300">
             </div>
             <div class="col-4">
-                <h2 class="txtcontent2" id="scrollspyHeading3"><strong>อุปกรณ์ของนักเรียน | IT</strong></h2>
-                <blockquote class="txtincontent2">
+                <h2 class="txtcontent1_B0X3" id="scrollspyHeading3" style= "color:black;" ><strong>อุปกรณ์ของนักเรียน | IT</strong></h2>
+                <blockquote class="txtincontent1" style= "color:black; font-size: 18px; ">
                     ศูนย์เทคโนโลยีดิจิทัล สนับสนุนการใช้เทคโนโลยีสารสนเทศเพื่อการศึกษา
                     โดยให้บริการคอมพิวเตอร์และอุปกรณ์อิเล็กทรอนิกส์ที่ทันสมัย เพื่อสนับสนุนและเพิ่มศักยภาพให้แก่นักศึกษา
                     อาจารย์ รวมทั้งบุคลากรของมหาวิทยาลัยเพื่อใช้ในการพัฒนาระบบการเรียนการสอน งานวิจัย
@@ -278,7 +278,7 @@
     <!-- เนื้อหา 3 -->
     <!-- หัวข้อ 1-->
     <div class="container-fluid">
-        <h2 class="title" id="scrollspyHeading4"><strong>อาชีพในฝัน</strong></h2>
+        <p class="title" id="scrollspyHeading4" style="text-align: center;font-size: 45px;"><strong>อาชีพในฝัน</strong></p>
     </div>
     <!-- หัวข้อ 1 -->
     <!-- อาชีพในฝัน การ์1 -->
@@ -286,7 +286,7 @@
         <div class="row">
             <div class="col">
                 <div class="card" style="width: 18rem;">
-                    <img src="https://cdn-icons.flaticon.com/png/512/2979/premium/2979941.png?token=exp=1639644874~hmac=b048345b0d4d709fa0aa26a96fb84740"
+                    <img src="https://cdn-icons.flaticon.com/png/512/2979/premium/2979941.png?token=exp=1639629871~hmac=ba4af69763f0a08fc3bab9ab44cc1587"
                         class="card-img-top" alt="business analysis" width="195" height="250">
                     <div class="card-body">
                         <h5 class="card-title"><strong>Business Analysis</strong></h5>
@@ -420,7 +420,7 @@
         <!-- Copyright -->
         <div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.2);">
             สนใจสมัครได้ที่:
-            <a class="text-dark" href="https://entry.wu.ac.th/" target="_blank"> มหาวิทยาลัยวลัยลักษณ์</a>
+            <a class="text-dark" href="https://entry.wu.ac.th/index.html" target="_blank"> มหาวิทยาลัยวลัยลักษณ์</a>
         </div>
         <!-- Copyright -->
     </footer>
@@ -428,8 +428,6 @@
 </body>
 
 </html>
-
-
 
 
 
