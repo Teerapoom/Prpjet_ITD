@@ -238,7 +238,7 @@
         <div class="row">
             <div class="col-3"></div>
             <div class="col-4">
-                <h2 class="txtcontent1_B0X2" id="scrollspyHeading2" style= "color:black;"><strong>IT Co-working</strong></h2>
+                <h2 class="txtcontent1_B0X2" id="scrollspyHeading2" style= "color:black;"><strong>IT Coworking</strong></h2>
                 <blockquote class="txtincontent1" style= "color:black; font-size: 18px; ">
                     Co-working Space เป็นห้องสำหรับนักศึกษา IT ที่สามารถเข้ามาใช้บริการหรือทำงานต่างๆ
                     อีกทั้งยังสามารถใช้ในการพบปะ พูดคุย
@@ -249,7 +249,7 @@
                 </blockquote>
             </div>
             <div class="col-4">
-                <img src="https://scontent.furt1-1.fna.fbcdn.net/v/t39.30808-6/264487398_5341526849197128_4611946625544690098_n.png?_nc_cat=101&ccb=1-5&_nc_sid=730e14&_nc_ohc=4hicXl56xUUAX9hUHDc&tn=m3y87K6IBu3hMcwv&_nc_ht=scontent.furt1-1.fna&oh=00_AT_b27n_pVt33TjhnT1oTO93arQHWtvYpNpK1XBz0cYg3w&oe=61C07612"
+                <img src="./img/264487398_5341526849197128_4611946625544690098_n.png"
                     class="imgcontent1" alt="comte" width="300" height="300">
             </div>
         </div>
@@ -265,7 +265,7 @@
                     class="imgcontent1" alt="comte" width="300" height="300">
             </div>
             <div class="col-4">
-                <h2 class="txtcontent1_B0X3" id="scrollspyHeading3" style= "color:black;" ><strong>อุปกรณ์ของนักเรียน IT</strong></h2>
+                <h2 class="txtcontent1_B0X3" id="scrollspyHeading3" style= "color:black;" ><strong>อุปกรณ์ของนักเรียน | IT</strong></h2>
                 <blockquote class="txtincontent1" style= "color:black; font-size: 18px; ">
                     ศูนย์เทคโนโลยีดิจิทัล สนับสนุนการใช้เทคโนโลยีสารสนเทศเพื่อการศึกษา
                     โดยให้บริการคอมพิวเตอร์และอุปกรณ์อิเล็กทรอนิกส์ที่ทันสมัย เพื่อสนับสนุนและเพิ่มศักยภาพให้แก่นักศึกษา
@@ -286,7 +286,7 @@
         <div class="row">
             <div class="col">
                 <div class="card" style="width: 18rem;">
-                    <img src="https://cdn-icons.flaticon.com/png/512/2041/premium/2041643.png?token=exp=1639673892~hmac=1d041440e3aac975ceb086b4b94c412d"
+                    <img src="./img/2041643.png"
                         class="card-img-top" alt="business analysis" width="195" height="250">
                     <div class="card-body">
                         <h5 class="card-title"><strong>Business Analysis</strong></h5>
