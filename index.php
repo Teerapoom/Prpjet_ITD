@@ -420,7 +420,7 @@
         <!-- Copyright -->
         <div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.2);">
             สนใจสมัครได้ที่:
-            <a class="text-dark" href="https://entry.wu.ac.th/index.html" target="_blank"> มหาวิทยาลัยวลัยลักษณ์</a>
+            <a class="text-dark" href="https://entry.wu.ac.th/" target="_blank"> มหาวิทยาลัยวลัยลักษณ์</a>
         </div>
         <!-- Copyright -->
     </footer>
