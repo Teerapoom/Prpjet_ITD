@@ -238,7 +238,7 @@
         <div class="row">
             <div class="col-3"></div>
             <div class="col-4">
-                <h2 class="txtcontent1_B0X2" id="scrollspyHeading2" style= "color:black;"><strong>IT Coworking</strong></h2>
+                <h2 class="txtcontent1_B0X2" id="scrollspyHeading2" style= "color:black;"><strong>IT Co-working</strong></h2>
                 <blockquote class="txtincontent1" style= "color:black; font-size: 18px; ">
                     Co-working Space เป็นห้องสำหรับนักศึกษา IT ที่สามารถเข้ามาใช้บริการหรือทำงานต่างๆ
                     อีกทั้งยังสามารถใช้ในการพบปะ พูดคุย
@@ -265,7 +265,7 @@
                     class="imgcontent1" alt="comte" width="300" height="300">
             </div>
             <div class="col-4">
-                <h2 class="txtcontent1_B0X3" id="scrollspyHeading3" style= "color:black;" ><strong>อุปกรณ์ของนักเรียน | IT</strong></h2>
+                <h2 class="txtcontent1_B0X3" id="scrollspyHeading3" style= "color:black;" ><strong>อุปกรณ์ของนักเรียน IT</strong></h2>
                 <blockquote class="txtincontent1" style= "color:black; font-size: 18px; ">
                     ศูนย์เทคโนโลยีดิจิทัล สนับสนุนการใช้เทคโนโลยีสารสนเทศเพื่อการศึกษา
                     โดยให้บริการคอมพิวเตอร์และอุปกรณ์อิเล็กทรอนิกส์ที่ทันสมัย เพื่อสนับสนุนและเพิ่มศักยภาพให้แก่นักศึกษา
